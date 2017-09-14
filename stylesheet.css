@@ -79,30 +79,70 @@ a:active {color: #FFFFFF}   /* selected link */
 
 /***************************  Navigation **********************/
 
+
+/*Dropdown */ 
+
+.dropbase span {
+	font-size: 18px;
+	
+}
+
+.dropbase {
+	position: relative;
+	display: block;
+}
+
+.dropbase:hover .dropcontent {
+	display: block;
+}
+
+.dropcontent{
+	display: none;
+	position: absolute;
+	background-color: yellow;
+	min-width: 150px;
+	color: black;
+}
+
+.dropcontent a {
+	display: block;
+	text-decoration: none;
+}
+
+/*Dropdown */ 
+
 #navlist
 {
-	display: block;
-	position: absolute;
+
+	position: relative;
 	right: 0px;
 	top: 63px;
 	height: 72px;
 }
-#navlist li
+#navlist ul
 {
-	display: block;
-	float: left;
-	height: 100%;
+	
+	text-decoration: none;
 	margin-left: 4px;
 	margin-right: 4px;
-	z-index: 8;
+	padding: 8px 8px 8px 8px;
+
+	list-style-type: none;
+}
+
+#navlist li {
+	display: inline;
 }
 #navlist li a {
  	color: #fec709;
 	height: 47px;
 	padding: 25px 8px 0px 8px;
 	font-size: 20px;
+	display: block;
+	text-decoration: none;
+	background-color: aquamarine;
 }
-#navlist li a:hover{ color: #fec709; }
+/*#navlist li a:hover{ color: #fec709; }
 
 #navlist li.current_page_item{
 
@@ -112,16 +152,15 @@ a:active {color: #FFFFFF}   /* selected link */
 #navlist li.current_page_item a{
  	color:#fec709;; 
 }
-/* sub nav */
+ sub nav 
 
 #navlist li ul{
 	padding:0px;
 	background: #fec709;
 }
+*/
 
-#navlist>li>ul{
-	margin: 47px 0px 0px 0px;
-}
+/*
 
 #navlist li ul li{
 	padding: 0px;
@@ -147,6 +186,7 @@ a:active {color: #FFFFFF}   /* selected link */
 #navlist li ul li:hover a{ 
 	color: #fec709; 
 }
+*/
 /************************************ Image Headings ******************************/
 
 #heading_piano {
