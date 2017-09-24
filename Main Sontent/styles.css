@@ -18,10 +18,10 @@ html img {
 .tcmclogo
 {
 	float: left;
-	clear: both;
 	margin: 25px;
 	position: relative;
 	background-image: url(images/TCMCbanner.jpg);
+	background-size: cover;
 }
 #navbar {
 	margin: auto;
