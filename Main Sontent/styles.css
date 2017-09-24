@@ -4,8 +4,9 @@
 
 html {
 	background-image: url(images/bg.jpg);
-	background-size: 100%;
+	background-size: cover;
 	background-repeat: repeat-y;
+	
 	
 }
 
@@ -20,8 +21,7 @@ html img {
 	float: left;
 	margin: 25px;
 	position: relative;
-	background-image: url(images/TCMCbanner.jpg);
-	background-size: cover;
+	
 }
 #navbar {
 	margin: auto;
